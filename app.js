@@ -9,7 +9,7 @@ app.set("views", "./views");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 //database connection
-const connectionString = "mongodb://127.0.0.1:27017/mongocrud4";
+const connectionString = "mongodb://127.0.0.1:27017/Assignment4";
 mongoose
   .connect(connectionString)
   .then((res) => console.log("database Connected"))
